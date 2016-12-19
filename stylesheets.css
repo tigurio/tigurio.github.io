@@ -8,11 +8,11 @@
 html,
 body {
   height: 100%;
-  /*background-image: url('bg1.jpg');
+  background-image: url('bg1.jpg');
   background-size: cover;
   background-position:top right;
   background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
 
 }
 .container {
@@ -23,8 +23,8 @@ body {
 }
 .wrapper {
   width: 270px;
-  /*margin: 0px 305px;*/
-  margin: 0px auto;
+  margin: 0px 305px;
+  /*margin: 0px auto;*/
   position: relative;
 }
 .word {
