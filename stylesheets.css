@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=BenchNine:700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+/*@import url(http://fonts.googleapis.com/css?family=BenchNine:700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);*/
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +8,11 @@
 html,
 body {
   height: 100%;
-  /*background-image: url(bg.jpg);
+  background-image: url(bg1.jpg);
   background-size: cover;
-  background-position:top;
+  background-position:top right;
   background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
 
 }
 .container {
@@ -23,7 +23,7 @@ body {
 }
 .wrapper {
   width: 270px;
-  margin: 0px auto;
+  margin: 0px 305px;
   position: relative;
 }
 .word {
