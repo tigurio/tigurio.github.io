@@ -68,7 +68,7 @@
    </div>
   <div class="bubble6">
     <span class="the-arrow6"></span>
-
+    <div id="work">
     DIGITAL PRODUCT ANALYST<br/>
     October 2008 - Current<br/>
     Empresa Editora A TARDE s/a.<br/>
@@ -79,7 +79,7 @@
     Nomad Comunicação Interativa<br/>
     <br/>
 
-<!--     CREATIVE DIRECTOR / PARTNER<br/>
+    CREATIVE DIRECTOR / PARTNER<br/>
     August 2006 - September 2008<br/>
     Khanda Escritório de Comunicação<br/>
     <br/>
@@ -92,8 +92,8 @@
     DESIGNER<br/>
     October 2002 - April 2003<br/>
     Allsigns Sinalização e Comunicação Visual<br/>
-    <br/> -->
-
+    <br/>
+    </div>
   </div>
   <div class="bubble7">
      <span class="the-arrow7"></span>
@@ -123,6 +123,32 @@
 </div>
 
 </div><!--end container-->
+<link rel="stylesheet" href="http://malihu.github.io/custom-scrollbar/3.0.0/jquery.mCustomScrollbar.min.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.js"></script>
+<script src="http://malihu.github.io/custom-scrollbar/3.0.0/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+  /*
+ Possible bug?  If you have a selector that matches zero elements and call destroy, all mcustomscrollbars
+ are destroyed.
+ 
+ Uncomment the last line and run this fiddle and notice that all scrollbars are destroyed.  I would expected
+ no effect.
+*/
+
+var container1 = $('#container1');
+
+for (var i = 0; i < 500; i++) {
+    container1.append("<p>"+i+"</p>");
+}
+
+$('#work').mCustomScrollbar({ 
+        theme:"dark-3"        
+});
+
+;
+
+//$("#selector_that_matches_zero_elements").mCustomScrollbar("destroy");
+</script>
 
 </body>
 </html>
