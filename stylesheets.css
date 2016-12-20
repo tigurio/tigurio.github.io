@@ -248,7 +248,7 @@ body {
   transform: rotate(180deg);
 }
 .bubble6 {
-  overflow: hidden;
+  /*overflow: hidden;*/
   height: 280px;
   width: 250px;
   padding: 20px;
