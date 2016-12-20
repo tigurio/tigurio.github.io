@@ -47,10 +47,10 @@ body {
 .word6 {
   color: #809BB0;
 }
-.word7 {
+.word7,
+.word8 {
   color: #6B7B8A;
 }
-.word8,
 .word9 {
   color: #8B8091;
 }
@@ -81,25 +81,25 @@ body {
   font-size: 8em;
 }
 .word7 {
-  font-size: 4.5em;
+  font-size: 5em;
 }
 .word8 {
-  font-size: 4em;
-}
-.word9{
-  font-size: 6.3em;
-}
-.word11 {
-  font-size: 8em;
-}
-.word10 {
-  font-size: 4.9em;
-}
-.word12 {
   font-size: 8.2em;
 }
+.word9{
+  font-size: 4.7em;
+}
+.word10 {
+  font-size: 4em;
+}
+.word11 {
+  font-size: 6.2em;
+}
+.word12 {
+  font-size: 8.1em;
+}
 .word13 {
-  font-size: 7.8em;
+  font-size: 7.9em;
 }
 .bubble1 {
   height: 75px;
@@ -195,7 +195,7 @@ body {
   transform: rotate(180deg);
 }
 .bubble4 {
-  height: 150px;
+  height: 270px;
   width: 250px;
   padding: 20px;
   position: absolute;
@@ -206,7 +206,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 315px;
+  top: 200px;
   left: 280px;
 }
 .bubble4 span.the-arrow4 {
@@ -248,19 +248,18 @@ body {
   transform: rotate(180deg);
 }
 .bubble6 {
-  /*overflow: hidden;*/
-  height: 280px;
+  height: 178px;
   width: 250px;
   padding: 20px;
   position: absolute;
   color: white;
   background-color: #8B8091;
   font-family: "Open Sans Condensed";
-  border-top-left-radius: 0;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 30px;
-  top: 537px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 0px;
+  top: 524px;
   left: 280px;
   line-height: 1.8;
 }
@@ -272,9 +271,9 @@ body {
   border-right: 0px solid #8B8091;
   border-bottom: 20px solid #8B8091;
   position: absolute;
-  top: 0px;
+  bottom: 0px;
   left: -19px;
-  transform: rotateX(180deg);
+
 }
 .bubble7 {
   height: auto;
@@ -288,7 +287,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 670px;
+  top: 710px;
   left: -280px;
 }
 .bubble7 span.the-arrow7 {
@@ -331,7 +330,7 @@ body {
 }
 
 #work {
-    height:250px;
+    height:225px;
     width:220px;
 }
 
