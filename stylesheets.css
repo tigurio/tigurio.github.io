@@ -195,7 +195,7 @@ body {
   transform: rotate(180deg);
 }
 .bubble4 {
-  height: 210px;
+  height: 150px;
   width: 250px;
   padding: 20px;
   position: absolute;
@@ -206,7 +206,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 260px;
+  top: 315px;
   left: 280px;
 }
 .bubble4 span.the-arrow4 {
