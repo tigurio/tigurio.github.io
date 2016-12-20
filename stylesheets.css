@@ -75,20 +75,22 @@ body {
   font-size: 6.4em;
 }
 .word5 {
-  font-size: 3.8em;
+  font-size: 5em;
 }
 .word6 {
-  font-size: 6em;
+  font-size: 8em;
 }
 .word7 {
   font-size: 4.5em;
 }
 .word8 {
-  font-size: 4.8em;
+  font-size: 4em;
 }
-.word9,
+.word9{
+  font-size: 6.3em;
+}
 .word11 {
-  font-size: 7.9em;
+  font-size: 8em;
 }
 .word10 {
   font-size: 4.9em;
@@ -130,7 +132,7 @@ body {
   transform: rotateY(180deg);
 }
 .bubble2 {
-  height: 200px;
+  height: 180px;
   width: 200px;
   padding: 20px;
   position: absolute;
@@ -142,7 +144,7 @@ body {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
   left: 100%;
-  top: -40px;
+  top: -20px;
 }
 .bubble2 span.the-arrow2 {
   display: inline-block;
@@ -204,7 +206,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 220px;
+  top: 260px;
   left: 280px;
 }
 .bubble4 span.the-arrow4 {
@@ -219,7 +221,7 @@ body {
   left: -19px;
 }
 .bubble5 {
-  height: 200px;
+  height: 160px;
   width: 250px;
   padding: 20px;
   position: absolute;
@@ -230,7 +232,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 450px;
+  top: 480px;
   left: -280px;
 }
 .bubble5 span.the-arrow5 {
@@ -246,7 +248,7 @@ body {
   transform: rotate(180deg);
 }
 .bubble6 {
-  height: 180px;
+  height: 280px;
   width: 250px;
   padding: 20px;
   position: absolute;
@@ -257,7 +259,7 @@ body {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 30px;
-  top: 495px;
+  top: 537px;
   left: 280px;
   line-height: 1.8;
 }
@@ -285,7 +287,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 675px;
+  top: 670px;
   left: -280px;
 }
 .bubble7 span.the-arrow7 {
