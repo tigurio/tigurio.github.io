@@ -139,7 +139,7 @@ body {
   transform: rotateY(180deg);
 }
 .bubble2 {
-  height: 180px;
+  height: 200px;
   width: 200px;
   padding: 20px;
   position: absolute;
