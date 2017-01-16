@@ -58,10 +58,13 @@ body {
 .word11 {
   color: #B68FA2;
 }
-.word12,
-.word13 {
-  color: #D99AB5;
+.word12{color:#D99AB5; }
+.word13,
+.word14 {
+  color: #A73F6B;
 }
+
+
 .word1 {
   font-size: 7em;
 }
@@ -96,11 +99,15 @@ body {
   font-size: 6.2em;
 }
 .word12 {
-  font-size: 8.1em;
+  font-size: 5.8em;
 }
 .word13 {
+  font-size: 8.1em;
+}
+.word14 {
   font-size: 7.9em;
 }
+
 .bubble1 {
   height: 75px;
   width: 75px;
@@ -157,6 +164,12 @@ body {
   bottom: 0px;
   left: -19px;
 }
+.bubble2 figure{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0; padding: 0;
+}
 .bubble2 img {
   border-top-left-radius: 20px;
   border-top-right-radius: 0;
@@ -165,7 +178,7 @@ body {
   background: white;
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .bubble3 {
   height: 200px;
@@ -314,7 +327,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 853px;
+  top: 723px;
   left: 280px;
 }
 .bubble8 span.the-arrow8 {
@@ -329,8 +342,39 @@ body {
   left: -19px;
 }
 
-#work {
+.bubble9 {
+  height: 180px;
+  width: 250px;
+  padding: 20px;
+  position: absolute;
+  color: white;
+  background-color: #A73F6B;
+  font-family: "Open Sans Condensed";
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 0;
+  top: 926px;
+  left: 280px;
+}
+.bubble9 span.the-arrow9 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 0px solid #A73F6B;
+  border-bottom: 20px solid #A73F6B;
+  position: absolute;
+  top: 160px;
+  left: -19px;
+}
+
+.work {
     height:225px;
+    width:220px;
+}
+.courses {
+    height:140px;
     width:220px;
 }
 

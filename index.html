@@ -9,6 +9,7 @@
     <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script> -->
     <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=BenchNine:700" type="text/css"> -->
     <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" type="text/css"> -->
+
 </head>
 <body>
 <div class="container">
@@ -21,7 +22,9 @@
         <span class="word word2">Santos</span>
         <div class="bubble2">
             <span class="the-arrow2"></span>
-            <img src="eu1.jpg"/>
+            <figure>
+                <img src="eu2.jpg"/>
+            </figure>
         </div>
 
         <span class="word word3">Personal</span>
@@ -77,7 +80,7 @@
         <span class="word word11">History </span>
         <div class="bubble7">
             <span class="the-arrow7"></span>
-            <div id="work">
+            <div class="work">
                 DIGITAL PRODUCT ANALYST<br/>
                 October 2008 - Current<br/>
                 Empresa Editora A TARDE s/a.<br/>
@@ -105,10 +108,27 @@
             </div>
         </div>
 
-        <span class="word word12">Get In </span>
-        <span class="word word13">Touch</span>
+        <span class="word word12">Courses</span>
         <div class="bubble8">
             <span class="the-arrow8"></span>
+            <div class="courses">
+                GESTÃO DE PROJETOS<br />
+                :: USP - Universidade de São Paulo (Curso online - andamento)<br />
+                JQUERY<br />
+                :: Velame Cursos (intermediário) / Robson Ataíde (básico)<br />
+                WORDPRESS<br />
+                :: Velame Cursos<br />
+                SEO<br />
+                :: Paulo Rodrigo Teixeira (<<a href="http://www.marketingdebusca.com.br" target="_blank">Marketing de Busca</a>)<br />
+                MARKETING DIGITAL<br />
+                :: Faculdade Maurício de Nassau
+            </div>
+        </div>
+
+        <span class="word word13">Get In </span>
+        <span class="word word14">Touch</span>
+        <div class="bubble9">
+            <span class="the-arrow9"></span>
             <strong>PHONE:</strong> +55 71 9 9200-1869<br/>
             <strong>EMAIL:</strong> falecom@tigurio.com.br / tigurio@gmail.com<br/>
             <strong>WEBSITE:</strong> www.tigurio.com.br <br/>
@@ -138,7 +158,7 @@ for (var i = 0; i < 500; i++) {
     container1.append("<p>"+i+"</p>");
 }
 
-$('#work').mCustomScrollbar({
+$('.work, .courses').mCustomScrollbar({
         theme:"dark-3"
 });
 
