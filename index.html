@@ -80,15 +80,17 @@
         </div>
 
         <span class="word word9">Education</span>
+        <span class="the-arrow6"></span>
         <div class="bubble6">
-            <span class="the-arrow6"></span>
-            UNIVERSIDADE FEDERAL DA GRANDE DOURADOS <br />
-            Sistemas de informação <br />
-            Início: março 2019 <br />
-            <br />
-            UNIVERSITY SALVADOR <br/>
-            Design with qualification in visual communication and emphasis on digital media<br/>
-            December 2006
+            <div class="education">
+                UNIVERSIDADE FEDERAL DA GRANDE DOURADOS <br />
+                Sistemas de informação <br />
+                Início: março 2019 <br />
+                <br />
+                UNIVERSITY SALVADOR <br/>
+                Design with qualification in visual communication and emphasis on digital media<br/>
+                December 2006
+            </div>
         </div>
 
         <span class="word word10">Employment</span>
@@ -178,7 +180,7 @@ for (var i = 0; i < 500; i++) {
     container1.append("<p>"+i+"</p>");
 }
 
-$('.work, .courses').mCustomScrollbar({
+$('.work, .courses, education').mCustomScrollbar({
         theme:"dark-3"
 });
 
