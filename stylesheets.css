@@ -274,7 +274,7 @@ body {
   border-bottom-left-radius: 0px;
   top: 524px;
   left: 280px;
-  line-height: 1.8;
+  /*line-height: 1.8;*/
 }
 .bubble6 span.the-arrow6 {
   display: inline-block;
